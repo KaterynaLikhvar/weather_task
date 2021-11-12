@@ -1,0 +1,26 @@
+@import "vars";
+@import "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #E5E5E5;
+  font-family: 'Roboto', sans-serif;
+}
+.page {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1100px;
+  width: 100%;
+}
+// Blocks
+@import "./blocks/header.scss";
+@import "./blocks/navbar.scss";
