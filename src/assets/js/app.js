@@ -7,10 +7,10 @@ const sidebar = document.querySelector('.sidebar');
 const lang = document.querySelector('.lang-container');
 const langMenu = document.getElementById('lang__list-items');
 const vectorDown = document.querySelector('.vector-down');
-const vectorSidebar = document.querySelector('arrow-up');
+const vectorSidebar = document.querySelector('.arrow-up');
 const coverElem = document.getElementById('cover');
 const closeBtn = document.querySelector('.sidebar__close-btn');
-//console.log(vectorUp)
+console.log(vectorSidebar)
 
 burgerBtn.addEventListener('click', () => {
   document.body.classList.add('notScrollable');
@@ -42,9 +42,11 @@ lang.addEventListener('click', () => {
 daysBtn.addEventListener('click', () => {
   if(daysList.classList.contains('hidden')) {
     daysList.classList.remove('hidden');
+    vectorSidebar.classList.add('vector-up');
     daysBtn.style.marginBottom = "212px";
  } else {
   daysList.classList.add('hidden');
+  vectorSidebar.classList.remove('vector-up');
   daysBtn.style.marginBottom = "0";
  }
 });
