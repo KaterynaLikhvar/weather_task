@@ -15,12 +15,16 @@ body {
   background-color: #E5E5E5;
   font-family: 'Roboto', sans-serif;
 }
+.notScrollable {
+  overflow: hidden;
+}
 .page {
   margin: 0 auto;
   position: relative;
   max-width: 1100px;
   width: 100%;
 }
+
 // Blocks
 @import "./blocks/header.scss";
-@import "./blocks/navbar.scss";
+@import "./blocks/sidebar.scss";

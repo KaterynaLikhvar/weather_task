@@ -3,8 +3,9 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: $blue_main;
   flex-flow: row wrap;
+  background-color: $blue_main;
+  // z-index: 1;
 
   &__menu {
     padding-left: 24px;
@@ -101,10 +102,7 @@
 .vector-up {
   transform: rotate(180deg);
 }
-.show {
-  display: block;
-}
-.hide {
+.hidden {
   display: none;
 }
 
