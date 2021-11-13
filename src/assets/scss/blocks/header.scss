@@ -5,7 +5,6 @@
   align-items: center;
   flex-flow: row wrap;
   background-color: $blue_main;
-  // z-index: 1;
 
   &__menu {
     padding-left: 24px;
@@ -95,12 +94,7 @@
     }
 }
 .vector-down {
-  //display: block;
   width: 8px;
   height: 6px;
-}
-
-.hidden {
-  display: none;
 }
 
