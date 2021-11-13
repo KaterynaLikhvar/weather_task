@@ -8,7 +8,7 @@
   z-index: 100;
 
   &__logo {
-    margin: 6px 0 0 20px;
+    margin: 6px 0 16px 20px;
     width: 154px;
     height: 32px;
   }
@@ -26,9 +26,48 @@
 
   &__container {
     display: flex;
+    flex-direction: column;
     width: 304px;
     height: 504px;
   }
+  
+  &__item {
+    position: relative;
+    padding: 12px 20px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .item-img {
+      margin-right: 16px;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      color: $text_menu;
+      font-size: 1rem;
+      line-height: 24px;
+    }
+    .arrow-up {
+      position: absolute;
+      left: 272px;
+    }
+    .days__list-items {
+      position: absolute;
+      top: 48px;
+      left: 0;
+      background-color:#fff;
+      width: 100%;
+      height: 200px;
+
+      a {
+        padding: 8px 60px;
+      }
+    }
+  }
+  
 }
 .hidden {
   display: none;

@@ -1,11 +1,13 @@
 console.log('file 1');
-const daysBtn = document.querySelector('.days__button');
+const daysBtn = document.getElementById('days__list');
+const daysList = document.querySelector('.days__list-items');
 const click = document.getElementById("list-items");
 const burgerBtn = document.querySelector('.header__menu');
 const sidebar = document.querySelector('.sidebar');
 const lang = document.querySelector('.lang-container');
 const langMenu = document.getElementById('lang__list-items');
 const vectorDown = document.querySelector('.vector-down');
+const vectorSidebar = document.querySelector('arrow-up');
 const coverElem = document.getElementById('cover');
 const closeBtn = document.querySelector('.sidebar__close-btn');
 //console.log(vectorUp)
@@ -35,5 +37,15 @@ lang.addEventListener('click', () => {
   langMenu.classList.add('hidden');
   vectorDown.classList.remove('vector-up');
  }
-})
+});
+
+daysBtn.addEventListener('click', () => {
+  if(daysList.classList.contains('hidden')) {
+    daysList.classList.remove('hidden');
+    daysBtn.style.marginBottom = "212px";
+ } else {
+  daysList.classList.add('hidden');
+  daysBtn.style.marginBottom = "0";
+ }
+});
 
