@@ -1,14 +1,370 @@
 <main class="main">
-  <section class="main__section">
+
+  <section class="content__title">
     <div class="location">
-      <span class="prev-location">Хмельницкая область</span>
+      <div class="location__item">Хмельницкая область</div>
       <img src="../assets/images/icons/chevron_right.png" alt="">
-      <span class="present-location">Камянец-Подольский р-н</span>
+      <div class="location__item">Камянец-Подольский р-н</div>
     </div>
     <h1 class="main__title">
       Прогноз на неделю в Каменец-Подольском
     </h1>
-    <div class="weather__container"></div>
   </section>
-  
+
+  <section class="content__box">
+
+    <article class="main__section">
+      <div class="weather__container">
+        <div class="days">
+          <div class="day-item">
+            <p class="day-week">Сегодня</p>
+            <p class="day-data">13 января</p>
+          </div>
+          <div class="day-item">
+            <p class="day-week">Завтра</p>
+            <p class="day-data">14 января</p>
+          </div>
+          <div class="day-item">
+            <p class="day-week">Понедельник</p>
+            <p class="day-data">15 января</p>
+          </div>
+        </div>
+        <div class="chart-name">
+          <p>Температура</p>
+          <p>фактическая / ощущается</p>
+        </div>
+
+        <div class="charts">
+          <div class="chart-item">
+            <div class="weather-img">
+              <div class="weather-item">
+                <p>Ночь</p>
+                <img src="../assets/images/weather/Mostly_cloudy.png" alt="">
+              </div>
+
+              <div class="weather-item">
+                <p>Утро</p>
+                <img src="../assets/images/weather/day_cloudy_lightning_rain_snow.png" alt="">
+              </div>
+
+              <div class="weather-item">
+                <p>День</p>
+                <img src="../assets/images/weather/day_cloudy.png" alt="">
+              </div>
+
+              <div class="weather-item">
+                <p>Вечер</p>
+                <img src="../assets/images/weather/day_сlear.png" alt="">
+              </div>
+            </div>
+            <div class="chart">
+              <div class="high-t">
+                <div class="chart-title first1">+28&deg</div>
+                <div class="chart-title second1">+29&deg</div>
+                <div class="chart-title third1">+32&deg</div>
+                <div class="chart-title fourth1">+30&deg</div>
+              </div>
+              <div id="chartContainer1">
+              </div>
+            </div>
+            <div class="low-t">
+              <div class="item">+25&deg</div>
+              <div class="item">+28&deg</div>
+              <div class="item">+29&deg</div>
+              <div class="item">+28&deg</div>
+            </div>
+          </div>
+
+          <div class="chart-item">
+            <div class="weather-img">
+              <div class="weather-item">
+                <p>Ночь</p>
+                <img src="../assets/images/weather/Mostly_cloudy.png" alt="">
+              </div>
+
+              <div class="weather-item">
+                <p>Утро</p>
+                <img src="../assets/images/weather/day_cloudy_lightning_rain_snow.png" alt="">
+              </div>
+
+              <div class="weather-item">
+                <p>День</p>
+                <img src="../assets/images/weather/day_cloudy.png" alt="">
+              </div>
+
+              <div class="weather-item">
+                <p>Вечер</p>
+                <img src="../assets/images/weather/day_сlear.png" alt="">
+              </div>
+            </div>
+            <div class="chart">
+              <div class="high-t">
+                <div class="chart-title first1">+28&deg</div>
+                <div class="chart-title second1">+29&deg</div>
+                <div class="chart-title third1">+32&deg</div>
+                <div class="chart-title fourth1">+30&deg</div>
+              </div>
+              <div id="chartContainer2">
+              </div>
+            </div>
+            <div class="low-t">
+              <div class="item">+25&deg</div>
+              <div class="item">+28&deg</div>
+              <div class="item">+29&deg</div>
+              <div class="item">+28&deg</div>
+            </div>
+          </div>
+
+          <div class="chart-item">
+            <div class="weather-img">
+              <div class="weather-item">
+                <p>Ночь</p>
+                <img src="../assets/images/weather/Mostly_cloudy.png" alt="">
+              </div>
+
+              <div class="weather-item">
+                <p>Утро</p>
+                <img src="../assets/images/weather/day_cloudy_lightning_rain_snow.png" alt="">
+              </div>
+
+              <div class="weather-item">
+                <p>День</p>
+                <img src="../assets/images/weather/day_cloudy.png" alt="">
+              </div>
+
+              <div class="weather-item">
+                <p>Вечер</p>
+                <img src="../assets/images/weather/day_сlear.png" alt="">
+              </div>
+            </div>
+            <div class="chart">
+              <div class="high-t">
+                <div class="chart-title first1">+28&deg</div>
+                <div class="chart-title second1">+29&deg</div>
+                <div class="chart-title third1">+32&deg</div>
+                <div class="chart-title fourth1">+30&deg</div>
+              </div>
+              <div id="chartContainer3">
+              </div>
+            </div>
+            <div class="low-t">
+              <div class="item">+25&deg</div>
+              <div class="item">+28&deg</div>
+              <div class="item">+29&deg</div>
+              <div class="item">+28&deg</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chart-name">
+          <p>Осадки</p>
+          <p>количество / вероятность</p>
+        </div>
+
+        <div class="charts">
+          <div class="chart-item">
+            <div class="chart">
+              <div class="high-t">
+                <div class="chart-title first2">2 мм</div>
+                <div class="chart-title second2">4 мм</div>
+                <div class="chart-title third2">9 мм</div>
+                <div class="chart-title fourth2">6 мм</div>
+              </div>
+              <div id="chartContainer4">
+              </div>
+            </div>
+            <div class="low-t">
+              <div class="item">60%</div>
+              <div class="item">70%</div>
+              <div class="item">80%</div>
+              <div class="item">70%</div>
+            </div>
+          </div>
+
+          <div class="chart-item">
+            <div class="chart">
+              <div class="high-t">
+                <div class="chart-title first3">4 мм</div>
+                <div class="chart-title second3">2 мм</div>
+                <div class="chart-title third3">2 мм</div>
+                <div class="chart-title fourth3">4 мм</div>
+              </div>
+              <div id="chartContainer5">
+              </div>
+            </div>
+            <div class="low-t">
+              <div class="item">60%</div>
+              <div class="item">40%</div>
+              <div class="item">60%</div>
+              <div class="item">70%</div>
+            </div>
+          </div>
+          <div class="chart-item">
+            <div class="chart">
+              <div class="high-t">
+                <div class="chart-title first4">9 мм</div>
+                <div class="chart-title second4">6 мм</div>
+                <div class="chart-title third4">4 мм</div>
+                <div class="chart-title fourth4">2 мм</div>
+              </div>
+              <div id="chartContainer6">
+              </div>
+            </div>
+            <div class="low-t">
+              <div class="item">80%</div>
+              <div class="item">70%</div>
+              <div class="item">60%</div>
+              <div class="item">60%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chart-name">
+          <p>Ветер</p>
+          <p>сила / направление</p>
+        </div>
+
+        <div class="charts">
+          <div class="chart-item">
+            <div class="chart">
+              <div class="high-t">
+                <div class="chart-title first2">2 м/c</div>
+                <div class="chart-title second2">4 м/c</div>
+                <div class="chart-title third2">9 м/c</div>
+                <div class="chart-title fourth2">6 м/c</div>
+              </div>
+              <div id="chartContainer7">
+              </div>
+            </div>
+            <div class="low-t">
+              <div class="item">
+                <img src="../assets/images/weather/backspace-1.png" alt="">
+              </div>
+              <div class="item">
+                <img src="../assets/images/weather/backspace-2.png" alt="">
+              </div>
+              <div class="item">
+                <img src="../assets/images/weather/backspace-1.png" alt="">
+              </div>
+              <div class="item">
+                <img src="../assets/images/weather/backspace-2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="chart-item">
+            <div class="chart">
+              <div class="high-t">
+                <div class="chart-title first3">4 м/c</div>
+                <div class="chart-title second3">2 м/c</div>
+                <div class="chart-title third3">2 м/c</div>
+                <div class="chart-title fourth3">4 м/c</div>
+              </div>
+              <div id="chartContainer8">
+              </div>
+            </div>
+            <div class="low-t">
+              <div class="item">
+                <img src="../assets/images/weather/backspace-2.png" alt="">
+              </div>
+              <div class="item">
+                <img src="../assets/images/weather/backspace-2.png" alt="">
+              </div>
+              <div class="item">
+                <img src="../assets/images/weather/backspace-1.png" alt="">
+              </div>
+              <div class="item">
+                <img src="../assets/images/weather/backspace-2.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="chart-item">
+            <div class="chart">
+              <div class="high-t">
+                <div class="chart-title first4">6 м/c</div>
+                <div class="chart-title second4">6 м/c</div>
+                <div class="chart-title third4">4 м/c</div>
+                <div class="chart-title fourth4">2 м/c</div>
+              </div>
+              <div id="chartContainer9">
+              </div>
+            </div>
+            <div class="low-t">
+              <div class="item">
+                <img src="../assets/images/weather/backspace-1.png" alt="">
+              </div>
+              <div class="item">
+                <img src="../assets/images/weather/backspace-2.png" alt="">
+              </div>
+              <div class="item">
+                <img src="../assets/images/weather/backspace-2.png" alt="">
+              </div>
+              <div class="item">
+                <img src="../assets/images/weather/backspace-2.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="weather__footer">
+          <p>Последнее обновление данных: 15:00 — 23.04.2021</p>
+          <button type="submit">Прогноз на неделю</button>
+        </div>
+
+
+
+    </article>
+
+    <aside class="news">
+      <h3 class="news__title">
+        Новости
+      </h3>
+      <div class="news__item">
+        <img src="../assets/images/news/news_1.png" alt="">
+        <div class="news__subscribe">
+          <div class="news__subscribe-category">
+            Стихии и катастрофы
+          </div>
+          <div class="news__subscribe-subtitle">
+            Смартфоны научили определять опьянение хозяина по походке
+          </div>
+        </div>
+      </div>
+      <div class="news__item">
+        <img src="../assets/images/news/news_2.png" alt="">
+        <div class="news__subscribe">
+          <div class="news__subscribe-category">
+            Технологии
+          </div>
+          <div class="news__subscribe-subtitle">
+            Калифорния потерпает от пожаров
+          </div>
+        </div>
+      </div>
+      <div class="news__item">
+        <img src="../assets/images/news/news_3.png" alt="">
+        <div class="news__subscribe">
+          <div class="news__subscribe-category">
+            Происшедствия
+          </div>
+          <div class="news__subscribe-subtitle">
+            Наводнения обрушились на 8 северных провинций Таиланда
+          </div>
+        </div>
+      </div>
+      <div class="news__item">
+        <img src="../assets/images/news/news_1.png" alt="">
+        <div class="news__subscribe">
+          <div class="news__subscribe-category">
+            Стихии и катастрофы
+          </div>
+          <div class="news__subscribe-subtitle">
+            Смартфоны научили определять опьянение хозяина по походке
+          </div>
+        </div>
+      </div>
+    </aside>
+  </section>
+
 </main>

@@ -3,9 +3,10 @@
 
 <head>
   {{> head }}
+  
 </head>
 
-<body>
+<body onload="drawChart()">
   <div class="page">
     {{> header }}
 
@@ -13,8 +14,7 @@
 
     {{> main }}
 
-    <aside class="news">
-    </aside>
+    {{> canvas }}
   </div>
 
   <script src="assets/js/app.js"></script>
