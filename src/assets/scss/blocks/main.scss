@@ -276,62 +276,6 @@
     cursor: pointer;
   }
 }
-
-
-
-
-
-
-  .barGraph {
-    margin-top: 50px;
-    margin-left: 50px;
-    height: 200px;
-    position: relative;
-    width: 52px;
-    height: 96px;
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
-    line-height: 20px;
-    background-color: transparent;
-    border: 0.01px solid transparent;
-    }
-    // .barGraph li{
-    //  background: #666 url(images/bar_50_percent_highlight.png) repeat-y top right;
-  
-    //   border: 1px solid #555;
-    //   border-bottom: none;
-    //   bottom: 0; 
-    //   color: #FFF;
-    //   margin: 0; 
-    //   padding: 0 0 0 0;
-    //   position: absolute;
-    //   list-style: none;
-    //   text-align: center;
-    //   width: 39px;
-    //   border: 1px solid red;
-    //   }
-  .set1 {
-    height: 43px;
-    text-align: center;
-    border-bottom: 3px solid $blue_main;
-    }
-    .set2 {
-      height: 48px;
-      text-align: center;
-      color: #366682;
-    }
-    .set-gradient {
-      height: 6px;
-      background: linear-gradient(180deg, 
-                rgba(57, 131, 255, 0.3) 0%, 
-                rgba(57, 131, 255, 0) 100%);
-    }
-    .set1,
-    .set-gradient {
-      border-left: 1px solid rgba(28, 33, 48, 0.05);
-      border-right: 1px solid rgba(28, 33, 48, 0.05);
-    }
 }
 .news {
   max-width: 300px;
